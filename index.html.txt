@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>G Best Corp Millwork</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: url('images/background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #333;
+    }
+    header {
+      background: rgba(0, 0, 0, 0.6);
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+    }
+    header img {
+      max-height: 120px;
+      margin-bottom: 20px;
+    }
+    nav {
+      background: rgba(0,0,0,0.8);
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 40px 20px;
+      text-align: center;
+      background: rgba(255,255,255,0.9);
+      margin: 20px;
+      border-radius: 10px;
+    }
+    h1, h2 {
+      margin-bottom: 20px;
+    }
+    .experience {
+      font-size: 1.5em;
+      color: #FFD700;
+      font-weight: bold;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+      margin-top: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+      cursor: pointer;
+    }
+    footer {
+      background: rgba(0,0,0,0.85);
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="images/G_Best_Corp_Logo_1.jpeg" alt="G Best Corp Logo">
+  <h1>G Best Corp Millwork</h1>
+  <p class="experience">20 Years of Experience in Custom Millwork & Furniture</p>
+</header>
+
+<nav>
+  <a href="#services">Services</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="services">
+  <h2>Our Services</h2>
+  <p>We specialize in custom millwork, handcrafted furniture, and unique wood designs tailored to your space.</p>
+</section>
+
+<section id="gallery">
+  <h2>Our Work</h2>
+  <div class="gallery">
+    <a href="images/IMG_0048.jpeg" class="glightbox"><img src="images/IMG_0048.jpeg" alt="Millwork Project 1"></a>
+    <a href="images/IMG_0049.jpeg" class="glightbox"><img src="images/IMG_0049.jpeg" alt="Millwork Project 2"></a>
+    <a href="images/IMG_0050.jpeg" class="glightbox"><img src="images/IMG_0050.jpeg" alt="Millwork Project 3"></a>
+    <a href="images/IMG_0051.jpeg" class="glightbox"><img src="images/IMG_0051.jpeg" alt="Millwork Project 4"></a>
+    <a href="images/IMG_0060.png" class="glightbox"><img src="images/IMG_0060.png" alt="Millwork Project 5"></a>
+    <a href="images/IMG_0061.png" class="glightbox"><img src="images/IMG_0061.png" alt="Millwork Project 6"></a>
+    <a href="images/IMG_0062.png" class="glightbox"><img src="images/IMG_0062.png" alt="Millwork Project 7"></a>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>📍 1323 East 16, Brooklyn, NY, 11230</p>
+  <p>📞 Giorgiy: 347-723-6671</p>
+  <p>📞 Ross: 929-255-8335</p>
+</section>
+
+<footer>
+  <p>&copy; 2025 G Best Corp Millwork. All rights reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+<script>
+  const lightbox = GLightbox({ selector: '.glightbox' });
+</script>
+
+</body>
+</html>
